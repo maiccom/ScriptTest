@@ -14,7 +14,7 @@ public class Boss
         //Magic関数内でmpを5減らし、「魔法攻撃をした。残りMPは〇〇。」
         //mpが足りない場合、「MPが足りないため魔法が使えない」
 
-        if (mp > 5)
+        if (mp >= 5)
         {
             // 残りmpを減らす
             this.mp -= 5;
